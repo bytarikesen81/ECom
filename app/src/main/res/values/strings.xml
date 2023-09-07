@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ECom</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_cart_screen">CartScreen</string>
+    <string name="title_mycart">Cart</string>
+    <string name="title_orderhistory">History</string>
+
+    <string-array name="spinnerCategories">
+        <item>featured</item>
+        <item>smartphones</item>
+        <item>laptops</item>
+        <item>fragrances</item>
+        <item>skincare</item>
+        <item>groceries</item>
+        <item>home-decoration</item>
+        <item>furniture</item>
+        <item>tops</item>
+        <item>womens-dresses</item>
+        <item>womens-shoes</item>
+        <item>mens-shirts</item>
+        <item>mens-shoes</item>
+        <item>mens-watches</item>
+        <item>womens-watches</item>
+        <item>womens-bags</item>
+        <item>womens-jewellery</item>
+        <item>sunglasses</item>
+        <item>automotive</item>
+        <item>motorcycle</item>
+        <item>lightning</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>

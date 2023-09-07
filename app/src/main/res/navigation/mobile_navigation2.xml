@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_mycart">
+    <fragment
+        android:id="@+id/navigation_mycart"
+        android:name="com.teapps.ecom.activities.ui.mycart.MyCartFragment"
+        android:label="@string/title_mycart"
+        tools:layout="@layout/fragment_mycart" />
+
+    <fragment
+        android:id="@+id/navigation_orderhistory"
+        android:name="com.teapps.ecom.activities.ui.orderhistory.OrderHistoryFragment"
+        android:label="@string/title_orderhistory"
+        tools:layout="@layout/fragment_orderhistory" />
+</navigation>

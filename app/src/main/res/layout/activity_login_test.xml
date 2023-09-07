@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".test.LoginTest">
+
+    <TextView
+        android:id="@+id/txtUsrID"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/txtUsrUname"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/txtUsrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/txtUsrFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/txtUsrLastname"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/txtUsrGender"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/txtUsrToken"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnUsrNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT" />
+
+    <Button
+        android:id="@+id/btnUsrReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET" />
+
+</LinearLayout>
